@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import BotaoOk from "./components/BotaoOk";
 import InputForm from "./components/InputForm";
@@ -6,8 +5,6 @@ import InputForm from "./components/InputForm";
 import styled from "styled-components";
 
 function App() {
-    const [count, setCount] = useState(0);
-
     return (
         <>
             <Cont>
